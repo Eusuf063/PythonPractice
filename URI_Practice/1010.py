@@ -1,0 +1,11 @@
+input1 = input().split(" ")
+input2 = input().split(" ")
+
+product1= int(input1[0])
+quantity1=int(input1[1])
+price1=float(input1[2])
+product2= int(input2[0])
+quantity2=int(input2[1])
+price2=float(input2[2])
+D= ((price1*float(quantity1))+(price2*float(quantity2)))
+print("VALOR A PAGAR: R$ %.2f"%D)
