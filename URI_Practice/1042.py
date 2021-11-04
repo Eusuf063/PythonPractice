@@ -1,0 +1,13 @@
+n= input().split()
+n=sorted(n)
+x=int(n[0])
+y=int(n[1])
+z=int(n[2])
+print(x)
+print(y)
+print(z)
+print("")
+print(z)
+print(y)
+print(x)
+
